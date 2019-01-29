@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		246E26CB51AEFA2FC9FDA27C /* Pods-RibTutorial01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RibTutorial01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RibTutorial01/Pods-RibTutorial01.debug.xcconfig"; sourceTree = "<group>"; };
-		2FD02CFC21FF1F6700F8EC4D /* RibTutorial01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RibTutorial01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD02CFC21FF1F6700F8EC4D /* RibTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RibTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD02CFF21FF1F6700F8EC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD02D0421FF1F6700F8EC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FD02D0621FF1F6900F8EC4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		2FD02CF321FF1F6700F8EC4D = {
 			isa = PBXGroup;
 			children = (
-				2FD02CFE21FF1F6700F8EC4D /* RibTutorial01 */,
+				2FD02CFE21FF1F6700F8EC4D /* RibTutorial */,
 				2FD02CFD21FF1F6700F8EC4D /* Products */,
 				ADC468076B1198D59814265E /* Pods */,
 				848F9961DB514B2FF1FF1E0C /* Frameworks */,
@@ -76,12 +76,12 @@
 		2FD02CFD21FF1F6700F8EC4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FD02CFC21FF1F6700F8EC4D /* RibTutorial01.app */,
+				2FD02CFC21FF1F6700F8EC4D /* RibTutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2FD02CFE21FF1F6700F8EC4D /* RibTutorial01 */ = {
+		2FD02CFE21FF1F6700F8EC4D /* RibTutorial */ = {
 			isa = PBXGroup;
 			children = (
 				2FDF7F6821FFFC9500871967 /* RIBs */,
@@ -91,7 +91,7 @@
 				2FD02D0821FF1F6900F8EC4D /* LaunchScreen.storyboard */,
 				2FD02D0B21FF1F6900F8EC4D /* Info.plist */,
 			);
-			path = RibTutorial01;
+			path = RibTutorial;
 			sourceTree = "<group>";
 		};
 		2FDF7F5A21FFFBFA00871967 /* Application */ = {
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FD02CFB21FF1F6700F8EC4D /* RibTutorial01 */ = {
+		2FD02CFB21FF1F6700F8EC4D /* RibTutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FD02D0E21FF1F6900F8EC4D /* Build configuration list for PBXNativeTarget "RibTutorial01" */;
+			buildConfigurationList = 2FD02D0E21FF1F6900F8EC4D /* Build configuration list for PBXNativeTarget "RibTutorial" */;
 			buildPhases = (
 				4DE40A30258392BD4D4B5ACF /* [CP] Check Pods Manifest.lock */,
 				2FD02CF821FF1F6700F8EC4D /* Sources */,
@@ -171,9 +171,9 @@
 			);
 			dependencies = (
 			);
-			name = RibTutorial01;
+			name = RibTutorial;
 			productName = RibTutorial01;
-			productReference = 2FD02CFC21FF1F6700F8EC4D /* RibTutorial01.app */;
+			productReference = 2FD02CFC21FF1F6700F8EC4D /* RibTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -190,7 +190,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2FD02CF721FF1F6700F8EC4D /* Build configuration list for PBXProject "RibTutorial01" */;
+			buildConfigurationList = 2FD02CF721FF1F6700F8EC4D /* Build configuration list for PBXProject "RibTutorial" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -203,7 +203,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FD02CFB21FF1F6700F8EC4D /* RibTutorial01 */,
+				2FD02CFB21FF1F6700F8EC4D /* RibTutorial */,
 			);
 		};
 /* End PBXProject section */
@@ -441,7 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WQ9GA3FD9;
-				INFOPLIST_FILE = RibTutorial01/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RibTutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WQ9GA3FD9;
-				INFOPLIST_FILE = RibTutorial01/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RibTutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FD02CF721FF1F6700F8EC4D /* Build configuration list for PBXProject "RibTutorial01" */ = {
+		2FD02CF721FF1F6700F8EC4D /* Build configuration list for PBXProject "RibTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FD02D0C21FF1F6900F8EC4D /* Debug */,
@@ -484,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FD02D0E21FF1F6900F8EC4D /* Build configuration list for PBXNativeTarget "RibTutorial01" */ = {
+		2FD02D0E21FF1F6900F8EC4D /* Build configuration list for PBXNativeTarget "RibTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FD02D0F21FF1F6900F8EC4D /* Debug */,

@@ -13,7 +13,7 @@ def sharedPods
 
 end
 
-target 'RibTutorial01' do
+target 'RibTutorial' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   sharedPods
 

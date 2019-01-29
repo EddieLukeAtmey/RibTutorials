@@ -5,7 +5,7 @@
       location = "group:/Users/ntq/Projects/RibTutorial/ELHelper/ELCommon.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:RibTutorial01.xcodeproj">
+      location = "group:/Users/ntq/Projects/RibTutorial/RibTutorial.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
