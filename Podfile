@@ -8,8 +8,8 @@ def sharedPods
     inhibit_all_warnings!
 
     pod 'RIBs'
-    pod 'SnapKit', '~> 4.0.0'
-    pod 'RxCocoa', '~> 4.0.0'
+    pod 'SnapKit'
+    pod 'RxCocoa'
 
 end
 

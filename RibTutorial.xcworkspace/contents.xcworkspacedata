@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/ntq/Projects/RibTutorial/ELHelper/ELCommon.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:RibTutorial01.xcodeproj">
    </FileRef>
    <FileRef
